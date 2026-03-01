@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FORMULARIO</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+		<h1 class="title"><em>Generador de Curriculum</em></h1>
+	<div class="container">
+		<div class="border">
+		<div class="controls">
+				<p class="name">Nombres y apellidos:<br>
+				<input type="text" id="nameInput" placeholder="Juan López"></p>
+				<p class="phone">Telefono:<br>
+				<input type="text" id="phoneInput" placeholder="+502 1111 1111"></p>
+				<p class="fecha">Fecha de nacimiento:<br>
+				<input type="text" id="dateInput" placeholder="01/01/2000"></p>
+				<p class="dpi">DPI:<br>
+				<input type="text" id="idInput" placeholder="1122334450101"> </p>
+				<p class="mail">Correo Electronico: <br><input type="email" id="mailInput" placeholder="user@gmail.com"></p>
+
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+				<button id="pdfIndex" type="button">Descarga PDF</button>
+			</div>
+	</div>
+<script src="function.js"></script>
+</body>
+</html>
